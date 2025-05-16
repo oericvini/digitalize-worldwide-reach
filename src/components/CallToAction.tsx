@@ -13,24 +13,24 @@ const CallToAction = () => {
           
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to <span className="gradient-text">Transform Your Business</span>?
+              Pronto <span className="gradient-text">para Transformar o Seu Negócio</span>?
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Join thousands of businesses that have successfully gone digital with our platform. 
-              Start your transformation today with our risk-free 14-day trial.
+            Junte-se a milhares de negócios que já se digitalizaram com sucesso usando nossa plataforma.
+            Comece sua transformação hoje com um teste gratuito de 14 dias, sem riscos.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" className="bg-gradient-to-r from-digitalize-blue to-digitalize-indigo hover-up">
-                Start Free Trial
+              Iniciar Teste Gratuito
               </Button>
               <Button size="lg" variant="outline" className="hover-up">
-                Schedule a Demo
+              Agendar uma Demonstração
               </Button>
             </div>
             
             <p className="mt-6 text-sm text-muted-foreground">
-              No credit card required. Cancel anytime.
+            Sem necessidade de cartão de crédito. Cancele quando quiser.
             </p>
           </div>
         </div>
