@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="font-bold text-2xl gradient-text">Digitalize</span>
             </Link>
             <p className="text-muted-foreground mb-4">
-              Helping physical stores transform into global digital businesses.
+            Ajudando lojas físicas a se transformarem em negócios digitais globais.
             </p>
             <div className="flex space-x-4">
               {['facebook', 'twitter', 'instagram', 'linkedin'].map((social) => (
@@ -33,7 +33,7 @@ const Footer = () => {
           
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4">Product</h3>
+            <h3 className="font-semibold mb-4">Produto</h3>
             <ul className="space-y-2">
               {['Features', 'Pricing', 'Integrations', 'Updates', 'Roadmap'].map((item) => (
                 <li key={item}>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Company</h3>
+            <h3 className="font-semibold mb-4">Empresa</h3>
             <ul className="space-y-2">
               {['About', 'Customers', 'Careers', 'Blog', 'Contact'].map((item) => (
                 <li key={item}>
@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="font-semibold mb-4">Resources</h3>
+            <h3 className="font-semibold mb-4">Recursos</h3>
             <ul className="space-y-2">
               {['Documentation', 'Tutorials', 'Support', 'API', 'Community'].map((item) => (
                 <li key={item}>
@@ -74,17 +74,17 @@ const Footer = () => {
         
         <div className="border-t border-border/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Digitalize. All rights reserved.
+            &copy; {new Date().getFullYear()} Digitalize. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6">
             <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Privacy Policy
+            Política de Privacidade
             </Link>
             <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Terms of Service
+              Termos de Uso
             </Link>
             <Link to="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Cookie Policy
+            Política de Cookies
             </Link>
           </div>
         </div>
