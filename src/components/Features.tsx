@@ -4,33 +4,33 @@ import { Globe, TrendingUp, Briefcase, GlobeIcon, Users, Smartphone } from 'luci
 const features = [
   {
     icon: <Globe className="w-6 h-6 text-digitalize-blue" />,
-    title: "Global Reach",
-    description: "Expand beyond your local market and sell to customers worldwide with our integrated shipping and payment solutions."
+    title: "Alcance Global",
+    description: "Vá além do mercado local e venda para clientes em todo o mundo com nossas soluções integradas de envio e pagamento."
   },
   {
     icon: <TrendingUp className="w-6 h-6 text-digitalize-purple" />,
-    title: "Increased Revenue",
-    description: "On average, our clients see a 45% increase in revenue within the first six months after going digital."
+    title: "Aumento de Receita",
+    description: "Em média, nossos clientes registram um aumento de 45% na receita nos primeiros seis meses após a digitalização."
   },
   {
     icon: <Smartphone className="w-6 h-6 text-digitalize-teal" />,
-    title: "Mobile-First Design",
-    description: "Capture the growing mobile market with responsive storefronts optimized for any device."
+    title: "Design Prioritário para Dispositivos Móveis",
+    description: "Aproveite o mercado móvel em expansão com lojas virtuais responsivas e otimizadas para qualquer dispositivo."
   },
   {
     icon: <Briefcase className="w-6 h-6 text-digitalize-indigo" />,
-    title: "Customizable Templates",
-    description: "Choose from dozens of industry-specific themes designed to showcase your products perfectly."
+    title: "Templates Personalizáveis",
+    description: "Escolha entre dezenas de temas específicos para o seu segmento, criados para valorizar ao máximo os seus produtos."
   },
   {
     icon: <Globe className="w-6 h-6 text-digitalize-blue" />,
-    title: "Multilingual Support",
-    description: "Break language barriers with automatic translation features that help you serve international customers."
+    title: "Suporte Multilíngue",
+    description: "Our team of experts is available 24/7 to help you navigate your digital transformation journey."
   },
   {
     icon: <Users className="w-6 h-6 text-digitalize-purple" />,
-    title: "Dedicated Support",
-    description: "Our team of experts is available 24/7 to help you navigate your digital transformation journey."
+    title: "Suporte Dedicado",
+    description: "Nosso time de especialistas está disponível 24/7 para te acompanhar em cada etapa da sua jornada de transformação digital."
   }
 ];
 
@@ -40,12 +40,11 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Transform Your Physical Store with 
-            <span className="gradient-text"> Powerful Features</span>
+          Transforme Sua Loja Física com a Digitalizei!
+            <span className="gradient-text"> Recursos Poderosos</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Everything you need to take your business online and thrive
-            in the digital marketplace, all in one simple platform.
+          Tudo o que você precisa para levar seu negócio ao online e prosperar no mercado digital em uma única plataforma simples e completa.
           </p>
         </div>
         
@@ -66,3 +65,4 @@ const Features = () => {
 };
 
 export default Features;
+
