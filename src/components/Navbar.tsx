@@ -16,16 +16,16 @@ const Navbar = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <Link to="/#features" className="text-foreground/80 hover:text-foreground transition-colors">Features</Link>
-          <Link to="/#testimonials" className="text-foreground/80 hover:text-foreground transition-colors">Testimonials</Link>
-          <Link to="/#pricing" className="text-foreground/80 hover:text-foreground transition-colors">Pricing</Link>
-          <Link to="/#contact" className="text-foreground/80 hover:text-foreground transition-colors">Contact</Link>
+          <Link to="/#features" className="text-foreground/80 hover:text-foreground transition-colors">Funcionalidades</Link>
+          <Link to="/#testimonials" className="text-foreground/80 hover:text-foreground transition-colors">Depoimentos</Link>
+          <Link to="/#pricing" className="text-foreground/80 hover:text-foreground transition-colors">Planos</Link>
+          <Link to="/#contact" className="text-foreground/80 hover:text-foreground transition-colors">Contato</Link>
         </nav>
         
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4">
           <Button variant="outline" className="hover-up">Login</Button>
-          <Button className="bg-gradient-to-r from-digitalize-blue to-digitalize-indigo hover-up">Get Started</Button>
+          <Button className="bg-gradient-to-r from-digitalize-blue to-digitalize-indigo hover-up">Comece Agora!</Button>
         </div>
         
         {/* Mobile Menu Button */}
@@ -63,7 +63,7 @@ const Navbar = () => {
             </Link>
             <div className="flex flex-col space-y-2 pt-2 pb-4">
               <Button variant="outline" className="w-full">Login</Button>
-              <Button className="w-full bg-gradient-to-r from-digitalize-blue to-digitalize-indigo">Get Started</Button>
+              <Button className="w-full bg-gradient-to-r from-digitalize-blue to-digitalize-indigo">Comece Agora!</Button>
             </div>
           </div>
         </div>
