@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Globe, TrendingUp, Briefcase, World, Users, Smartphone } from 'lucide-react';
+import { Globe, TrendingUp, Briefcase, GlobeIcon, Users, Smartphone } from 'lucide-react';
 
 const features = [
   {
@@ -24,7 +23,7 @@ const features = [
     description: "Choose from dozens of industry-specific themes designed to showcase your products perfectly."
   },
   {
-    icon: <World className="w-6 h-6 text-digitalize-blue" />,
+    icon: <Globe className="w-6 h-6 text-digitalize-blue" />,
     title: "Multilingual Support",
     description: "Break language barriers with automatic translation features that help you serve international customers."
   },
