@@ -4,26 +4,26 @@ import React from 'react';
 const steps = [
   {
     number: "01",
-    title: "Sign Up & Create Your Store",
-    description: "Create your account, choose your industry, and set up your digital storefront in minutes.",
+    title: "Cadastre-se e Crie Sua Loja",
+    description: "Crie sua conta, selecione seu segmento e configure sua loja digital em poucos minutos.",
     color: "blue"
   },
   {
     number: "02",
-    title: "Upload Your Products",
-    description: "Add your inventory with our easy-to-use product management system, including photos and descriptions.",
+    title: "Envie seus produtos",
+    description: "Adicione seu estoque com nosso sistema de gerenciamento de produtos intuitivo, incluindo fotos e descrições.",
     color: "purple"
   },
   {
     number: "03",
-    title: "Customize Your Theme",
-    description: "Choose from dozens of industry-specific themes and customize them to match your brand identity.",
+    title: "Personalize Seu Tema",
+    description: "Escolha entre dezenas de temas específicos para o seu segmento e adapte cada detalhe à identidade da sua marca.",
     color: "indigo"
   },
   {
     number: "04",
-    title: "Launch & Start Selling",
-    description: "Go live with your digital store and start accepting orders from customers around the world.",
+    title: "Lance Sua Loja e Comece a Vender",
+    description: "Coloque sua loja digital no ar e comece a receber pedidos de clientes do mundo todo.",
     color: "teal"
   }
 ];
@@ -34,7 +34,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="gradient-text">Simple Steps</span> to Go Digital
+            <span className="gradient-text">Passos Simples</span> para se Digitalizar
           </h2>
           <p className="text-lg text-muted-foreground">
             Our streamlined process gets your business online quickly and efficiently,
@@ -52,7 +52,7 @@ const HowItWorks = () => {
                 <div className={`w-full lg:w-1/2 ${index % 2 === 1 ? 'lg:order-2' : ''} px-4 mb-6 lg:mb-0`}>
                   <div className={`p-6 rounded-2xl border border-border/50 bg-card hover:shadow-lg transition-shadow duration-300 ${index % 2 === 1 ? 'lg:text-right' : ''}`}>
                     <div className={`inline-block px-3 py-1 rounded-lg bg-digitalize-${step.color}/10 text-digitalize-${step.color} text-sm font-semibold mb-4`}>
-                      Step {step.number}
+                      Passo {step.number}
                     </div>
                     <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
                     <p className="text-muted-foreground">{step.description}</p>
