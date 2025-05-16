@@ -13,19 +13,19 @@ const Hero = () => {
           <div className="lg:w-1/2 mb-10 lg:mb-0">
             <div className="max-w-lg mx-auto lg:mx-0">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
-                <span className="gradient-text">Transform</span> Your Business for the Digital Age
+                <span className="gradient-text">Transforme</span> Seu Negócio na Era Digital
               </h1>
               <p className="text-lg text-muted-foreground mb-8">
-                Quickly transform your physical store into a global business. 
-                Reach customers worldwide and increase profits with our simple 
-                digital transformation solutions.
+              Transforme sua loja física em um negócio global de forma rápida.
+              Alcance clientes no mundo todo e aumente seus lucros com nossas 
+              soluções simples de transformação digital.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-gradient-to-r from-digitalize-blue to-digitalize-indigo hover-up">
-                  Get Started Free
+                  Comece Agora Gratuitamente
                 </Button>
                 <Button size="lg" variant="outline" className="hover-up">
-                  Book a Demo
+                  Solicitar Demonstração
                 </Button>
               </div>
               
@@ -35,7 +35,7 @@ const Hero = () => {
                     <div key={i} className={`w-8 h-8 rounded-full border-2 border-background bg-digitalize-${i % 2 ? 'blue' : 'purple'}/20`}></div>
                   ))}
                 </div>
-                <span>Join <span className="font-semibold text-foreground">1,000+</span> businesses already growing online</span>
+                <span>Junte-se a mais de <span className="font-semibold text-foreground">1,000+</span> negócios que já estão crescendo no mundo digital</span>
               </div>
             </div>
           </div>
@@ -53,8 +53,8 @@ const Hero = () => {
                         <Globe size={20} />
                       </div>
                       <div className="ml-3">
-                        <div className="font-bold">Boutique Sales Dashboard</div>
-                        <div className="text-xs text-muted-foreground">Global Sales Tracker</div>
+                        <div className="font-bold">Painel de Vendas da Boutique</div>
+                        <div className="text-xs text-muted-foreground">Rastreador de Vendas Globais</div>
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
@@ -84,8 +84,8 @@ const Hero = () => {
                   {/* Sales chart placeholder */}
                   <div className="bg-muted rounded-lg p-4 relative h-32">
                     <div className="absolute top-4 left-4">
-                      <div className="font-medium text-sm">Monthly Sales</div>
-                      <div className="font-bold text-lg">€52,489</div>
+                      <div className="font-medium text-sm">Vendas Mensais</div>
+                      <div className="font-bold text-lg">R$52.489</div>
                     </div>
                     {/* Chart illustration */}
                     <div className="absolute bottom-4 left-4 right-4 h-12 flex items-end">
@@ -113,8 +113,8 @@ const Hero = () => {
                       </svg>
                     </div>
                     <div className="ml-2">
-                      <div className="text-xs font-medium">New Order</div>
-                      <div className="text-xs text-muted-foreground">€239.00</div>
+                      <div className="text-xs font-medium">Novo Pedido</div>
+                      <div className="text-xs text-muted-foreground">R$239,00</div>
                     </div>
                   </div>
                 </div>
@@ -127,8 +127,8 @@ const Hero = () => {
                       </svg>
                     </div>
                     <div className="ml-2">
-                      <div className="text-xs font-medium">New Message</div>
-                      <div className="text-xs text-muted-foreground">From Japan</div>
+                      <div className="text-xs font-medium">Nova Mensagem</div>
+                      <div className="text-xs text-muted-foreground">De São Paulo</div>
                     </div>
                   </div>
                 </div>
